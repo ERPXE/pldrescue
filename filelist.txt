@@ -1,0 +1,17 @@
+.:
+filelist.txt
+i386
+pldrescue.menu
+x86_64
+
+./i386:
+custom.cpi
+pldrescuemain.menu
+rescue.cpi
+vmlinuz
+
+./x86_64:
+custom.cpi
+pldrescuemain.menu
+rescue.cpi
+vmlinuz

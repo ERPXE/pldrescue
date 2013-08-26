@@ -1,0 +1,8 @@
+LABEL PLD32
+MENU LABEL ^PLD Rescue x86
+KERNEL er/plugins/pldrescue/i386/vmlinuz
+INITRD er/plugins/pldrescue/i386/rescue.cpi,er/plugins/pldrescue/i386/custom.cpi
+APPEND root=/dev/ram0
+TEXT HELP
+                 PLD RescueCD - Recovery CD x86.
+ENDTEXT

@@ -1,0 +1,8 @@
+LABEL PLD64
+MENU LABEL ^PLD Rescue x64
+KERNEL er/plugins/pldrescue/x86_64/vmlinuz
+INITRD er/plugins/pldrescue/x86_64/rescue.cpi,er/plugins/pldrescue/x86_64/custom.cpi
+APPEND root=/dev/ram0
+TEXT HELP
+                 PLD RescueCD - Recovery CD x64.
+ENDTEXT
