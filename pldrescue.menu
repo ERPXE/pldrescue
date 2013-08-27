@@ -1,9 +1,6 @@
 MENU BEGIN PLDRESCUE
+MENU TITLE PLD Rescue 11.02
 MENU LABEL ^PLD Rescue 11.02
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/pldrescue/pldrescue.png
 
 MENU INCLUDE er/plugins/pldrescue/i386/pldrescuemain.menu
